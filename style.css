@@ -1,0 +1,157 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #CAC9C9;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding:0;
+}
+
+
+
+
+
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    ; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #home {
+    top: 20px;
+    background-color: #4CAF50;
+  }
+  
+  #contact {
+    top: 80px;
+    background-color: #555 /* Light Black */
+  }
+
+  .banner {
+    background-image: url('https://www.liveascentuptown.com/wp-content/uploads/2017/11/Uptown-Stunner-_Small-1.jpg');
+    padding: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    background-attachment: fixed;
+    background-position: center -238px;
+}
+
+.banner h1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-left: 20px;
+    color: #F7FAFE;
+    font-size: 100px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 10;
+    text-shadow: 3px 2px #aeb1aeb6;
+
+}
+  
+
+/* Body */
+p{
+    text-align: center;
+    padding: 5px 400px;
+
+}
+
+.restaurants{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 40px;
+  }
+  
+  /* Create two columns that float next to eachother */
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+/* Footer */
+
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: #9c9c9c3b;
+}
