@@ -6,7 +6,7 @@ body{
 }
 
 .container{
-    width: 80%;
+    width: 40%;
     margin: auto;
     overflow: hidden;
 }
@@ -15,15 +15,16 @@ ul{
     padding:0;
 }
 
-
-
-
-
+.container p{
+    padding: 5px 50px;
+}
+.container2 p{
+    padding: 5px 50px;
+}
 
 /* Style the links inside the sidenav */
 #mySidenav a {
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    ; /* Position them relative to the browser window */
     left: -80px; /* Position them outside of the screen */
     transition: 0.3s; /* Add transition on hover */
     padding: 15px; /* 15px padding */
@@ -148,9 +149,32 @@ img{
     }
   }
 
+  .container2 {
+    
+    width: 40%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 80px;
+    min-height:100%;
+    position:relative;
+  }
+
 /* Footer */
 
 footer{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    background-color: #9c9c9c3b;
+}
+
+.footer2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     padding: 30px;
     background-color: #9c9c9c3b;
